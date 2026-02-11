@@ -18,7 +18,7 @@ const SuperClient = () => {
       <div className="relative flex  flex-col gap-15 items-end max-w-131 mx-2  ">
         <div className="bg-white max-w-110 rounded-[10px] relative py-10.25 px-12.5 opacity-20 ">
           <span className="absolute -top-4.25 -left-4.25 w-17 h-17 rounded-full border-3 border-white ">
-            <img src="/public/images/client.png" alt="" />
+            <img src="/images/client.png" alt="" />
           </span>
           <h4 className="text-gray-500 mb-8">
             We are providing the best and suitable home insurance services for
@@ -32,7 +32,7 @@ const SuperClient = () => {
         </div>
         <div className="bg-white max-w-110 rounded-[10px]  py-10.25 px-12.5 absolute top-1/2 left-0 -translate-y-1/2  z-10">
           <span className="absolute -top-4.25 -left-4.25 w-17 h-17 rounded-full border-3 border-white ">
-            <img src="/public/images/client.png" alt="" />
+            <img src="/images/client.png" alt="" />
           </span>
           <h4 className="text-gray-500 mb-8">
             We are providing the best and suitable home insurance services for
@@ -43,11 +43,11 @@ const SuperClient = () => {
             <h6 className="font-extrabold">Ilham Yuda</h6>
             <p className="text-gray-600">Businessman</p>
           </div>
-          <span className="absolute right-5"><img src="/public/images/circles.png" /></span>
+          <span className="absolute right-5"><img src="/images/circles.png" /></span>
         </div>
         <div className="bg-white max-w-110 rounded-[10px] relative py-10.25 px-12.5 opacity-20">
           <span className="absolute -top-4.25 -left-4.25 w-17 h-17 rounded-full border-3 border-white ">
-            <img src="/public/images/client.png" alt="" />
+            <img src="/images/client.png" alt="" />
           </span>
           <h4 className="text-gray-500 mb-8">
             We are providing the best and suitable home insurance services for

@@ -4,22 +4,22 @@ import Heading from "../components/Heading";
 const Feautured = () => {
   const featuredInfo = [
     {
-      src: "/public/images/tea-1.png",
+      src: "/images/tea-1.png",
       title: "Milk Tea",
       subTitle: "Creamer could be replaced by fresh milk",
     },
     {
-      src: "/public/images/tea-2.png",
+      src: "/images/tea-2.png",
       title: "Black Tea",
       subTitle: "Creamer could be replaced by fresh milk",
     },
     {
-      src: "/public/images/tea-3.png",
+      src: "/images/tea-3.png",
       title: "Lemon Tea",
       subTitle: "Creamer could be replaced by fresh milk",
     },
     {
-      src: "/public/images/tea-4.png",
+      src: "/images/tea-4.png",
       title: "Green Tea",
       subTitle: "Creamer could be replaced by fresh milk",
     },

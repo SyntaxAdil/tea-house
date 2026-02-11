@@ -10,9 +10,9 @@ const Footer = () => {
   ];
   const helpLink = ["FAQs", "Contact Us"];
 const socialMedia=[
-  {img: "/public/images/facebook.png",href:"https://facebook.com"},
-  {img: "/public/images/twitter.png",href:"https://twitter.com"},
-  {img: "/public/images/intsa.png",href:"https://instagram.com"},
+  {img: "/images/facebook.png",href:"https://facebook.com"},
+  {img: "/images/twitter.png",href:"https://twitter.com"},
+  {img: "/images/intsa.png",href:"https://instagram.com"},
  ]
   
 
@@ -20,7 +20,7 @@ const socialMedia=[
     <footer className="py-20 md:py-32.5 bg-linear-to-r from-[rgb(255,0,0,0.1)] to-[rgb(255,137,56,0.1)]">
       <div className="container mx-auto md:px-10  px-4 ">
         <div className="flex justify-between items-center mb-25 flex-col md:flex-row gap-5">
-          <img src="/public/images/cup.png" alt="cup" />
+          <img src="/images/cup.png" alt="cup" />
           <div className="flex md:gap-10 items-center flex-col md:flex-row gap-5">
             <h3 className="text-[20px] font-medium text-[#494949]">
               Ready to get strated?

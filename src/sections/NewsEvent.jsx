@@ -5,7 +5,7 @@ import Heading from "./../components/Heading";
 const NewsEvent = () => {
   const newsEventCarts = [
     {
-      image: "/public/images/news-1.png",
+      image: "/images/news-1.png",
       date: "Feb 05, 2027",
       title: "Collecting 8 points for discount",
       subTitle:
@@ -13,7 +13,7 @@ const NewsEvent = () => {
       href: "#",
     },
     {
-      image: "/public/images/news-2.png",
+      image: "/images/news-2.png",
       date: "Feb 05, 2027",
       title: "Collecting 8 points for discount",
       subTitle:
@@ -21,7 +21,7 @@ const NewsEvent = () => {
       href: "#",
     },
     {
-      image: "/public/images/news-3.png",
+      image: "/images/news-3.png",
       date: "Feb 05, 2027",
       title: "Collecting 8 points for discount",
       subTitle:

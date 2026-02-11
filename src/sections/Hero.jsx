@@ -16,11 +16,11 @@ const Hero = () => {
 
       <div className="flex item-end justify-end  relative">
         
-          <img src="/public/images/banner.png" className="" alt="banner"  />
+          <img src="/images/banner.png" className="" alt="banner"  />
         
 
         <div className="absolute bg-white rounded-md   px-6.5 py-4.5 -bottom-15 md:bottom-0 left-0 md:left-20 flex items-center gap-3.25 shadow-lg animate-upDown ">
-          <img src="/public/images/star-banner.png" alt="star" />
+          <img src="/images/star-banner.png" alt="star" />
           <div>
             <h3 className="text-[30px] font-extrabold">5.0</h3>
             <p className="text-gray-500 font-semibold ">Trust Pilot Ratings</p>

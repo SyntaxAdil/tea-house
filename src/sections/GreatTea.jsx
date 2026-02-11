@@ -6,10 +6,10 @@ const GreatTea = () => {
         <div className="grid grid-cols-2 grid-rows-3 gap-7.5">
             <div className="bg-linear-to-r from-[#FF0000] to-[#FF8938] opacity-10  rounded-[10px]"></div>
             <div className="bg-[rgba(230,166,35,0.1)] py-13.75 px-7.5 row-span-2  rounded-[10px]">
-                <img src="/public/images/fresh-1.png" alt="fresh-1" className="mx-auto" />
+                <img src="/images/fresh-1.png" alt="fresh-1" className="mx-auto" />
             </div>
             <div className="bg-[rgba(87,118,57,0.1)] py-13.75 px-7.5 row-span-2 rounded-[10px]">
-                <img src="/public/images/fresh-2.png" alt="fresh-2" className="mx-auto" />
+                <img src="/images/fresh-2.png" alt="fresh-2" className="mx-auto" />
 
             </div>
             <div className="bg-linear-to-r from-[#D9D9D9] to-[rgba(255,255,255,0)] rounded-[10px]"></div>

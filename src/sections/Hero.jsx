@@ -1,7 +1,7 @@
 import Button from "../components/Button";
 const Hero = () => {
   return (
-    <header className="py-17 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-2 px-4 md:px-10">
+    <header className="container mx-auto py-17 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-2 px-4 md:px-10">
       <div className="space-y-7.5">
         <h1 className="text-[60px] md:text-[80px] font-extrabold">
           It's good <br />

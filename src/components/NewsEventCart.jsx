@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsEventCart = ({date,title,subtile,href,image}) => {
   return (
-    <div className='max-w-91 rounded-[10px] p-5.5 border border-[#D2D2D2] space-y-5 ' >
+    <div className='max-w-91 mx-auto rounded-[10px] p-5.5 border border-[#D2D2D2] space-y-5 ' >
         <img src={image} alt="" />
         <div className='space-y-2.5 '>
             <h3 className='text-gray-500 dark:text-gray-300 '>{date}</h3>

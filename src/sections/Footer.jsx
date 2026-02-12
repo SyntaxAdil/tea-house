@@ -18,8 +18,9 @@ const socialMedia=[
 
   return (
     <footer className="dark:bg-gray-900 ">
-      <div className="container mx-auto md:px-10  px-4  bg-linear-to-r from-[rgb(255,0,0,0.1)] to-[rgb(255,137,56,0.1)] dark:from-[rgba(255,0,0,0.1)] dark:to-[rgba(255,137,56,0.1)] py-20 md:py-32.5 ">
-        <div className="flex justify-between items-center mb-25 flex-col md:flex-row gap-5 ">
+      <div className="  bg-linear-to-r from-[rgb(255,0,0,0.1)] to-[rgb(255,137,56,0.1)] dark:from-[rgba(255,0,0,0.1)] dark:to-[rgba(255,137,56,0.1)] py-20 md:py-32.5 ">
+        <div className="container mx-auto md:px-10  px-4">
+          <div className="flex justify-between items-center mb-25 flex-col md:flex-row gap-5 ">
           <img src="/images/cup.png" alt="cup" className="filter dark:invert" />
           <div className="flex md:gap-10 items-center flex-col md:flex-row gap-5">
             <h3 className="text-[20px] font-medium text-[#494949] dark:text-[#e7e7e7]">
@@ -96,6 +97,7 @@ const socialMedia=[
       <div className="text-center mt-15 text-[#494949] dark:text-[#e7e7e7] font-medium">
         <p>© 2027 Abdur Rahman Adil - All rights reserved.</p>
       </div>
+        </div>
       </div>
 
     </footer>

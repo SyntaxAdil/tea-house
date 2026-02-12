@@ -4,11 +4,13 @@ import GreatTea from "./sections/GreatTea";
 import SuperClient from "./sections/SuperClient";
 import NewsEvent from "./sections/NewsEvent";
 import Footer from "./sections/Footer";
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <main className="container mx-auto md:px-10  px-4 space-y-20 md:space-y-32.5 my-20 md:my-32.5">
         <Feautured />
@@ -17,8 +19,6 @@ const App = () => {
         <NewsEvent />
       </main>
       <Footer />
-
-
 
       <ScrollToTop />
     </>

@@ -1,8 +1,10 @@
 import Button from "./../components/Button";
 const SuperClient = () => {
   return (
-    <section className="bg-linear-to-r to-[#FF0000] from-[#FF8938] py-21.25 px-4 md:px-17.5 rounded-[10px] grid grid-cols-1 md:grid-cols-2 items-center gap-20"> 
-      <div className="space-y-7.5">
+    // container mx-auto md:px-10  px-4 bg-linear-to-r  py-20 md:py-32.5
+    <section className="bg-gray-700 rounded-[10px]"> 
+      <div className="bg-linear-to-r to-[#FF0000] from-[#FF8938]  py-21.25 px-4 md:px-17.5 rounded-[10px] grid grid-cols-1 md:grid-cols-2 items-center gap-20 dark:from-[rgba(255,0,0,0.1)] dark:to-[rgba(255,137,56,0.1)]">
+        <div className="space-y-7.5">
         <h2 className="text-[38px] max-w-95 md:text-[45px] font-extrabold text-white">
           Meet Our Super  Clients
         </h2>
@@ -12,7 +14,7 @@ const SuperClient = () => {
           humour, or randomised words which don't look even slightly
           believable.{" "}
         </p>
-        <Button invert content={"Show All"} />
+        <Button  invert content={"Show All"} extraClass="dark:bg-linear-to-r dark:from-[#FF0000] dark:to-[#FF8938] dark:text-white" />
       </div>
 
       <div className="relative flex  flex-col gap-15 items-end max-w-131 mx-2  ">
@@ -62,6 +64,7 @@ const SuperClient = () => {
 
         
        
+      </div>
       </div>
     </section>
   );
